@@ -1,19 +1,37 @@
 {
   "name": "homebridge-homey-mqtt-mirror",
-  "version": "1.0.3",
+  "version": "1.1",
   "description": "homebridge-homey-mqtt-mirror",
   "main": "index.js",
   "scripts": {
     "git-commit": "git add -A && git push && git commit -m '-' && git push",
     "npm-publish": "npm version patch && npm publish",
+    "goto-github": "open https://github.com/meg768/homebridge-homey-mqtt-mirror.git",
     "goto-npm": "open https://www.npmjs.com/package/homebridge-homey-mqtt-mirror"
   },
+  "engines": {
+    "node": ">=12.0.0",
+    "homebridge": ">=0.4.33"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meg768/homebridge-homey-mqtt-mirror.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "mqtt",
+    "homebridge"
+  ],
+  "author": "Magnus Egelberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meg768/homebridge-homey-mqtt-mirror/issues"
+  },
+  "homepage": "https://github.com/meg768/homebridge-homey-mqtt-mirror#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "mqtt": "^4.3.7",
     "mqtt-async": "^1.0.44",
     "yow": "^1.0.110"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
