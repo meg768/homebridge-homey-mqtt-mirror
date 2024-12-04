@@ -12,6 +12,6 @@ module.exports = function(api) {
     Homebridge.PlatformAccessory = api.platformAccessory;
     Homebridge.API = api;
 
-    api.registerPlatform('homebridge-homey-mqtt', 'Homey MQTT', require('./src/platform.js'));
+    api.registerPlatform('homebridge-homey-mqtt-mirror', 'Homey MQTT Mirror', require('./src/platform.js'));
 };
 
