@@ -8,6 +8,13 @@
     "npm-publish": "npm version patch && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mqtt": "^4.3.7",
+    "mqtt-async": "^1.0.44",
+    "yow": "^1.0.110"
+  },
+
   "author": "",
   "license": "ISC"
 }
