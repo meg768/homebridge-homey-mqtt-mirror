@@ -1,6 +1,6 @@
 {
   "name": "homebridge-homey-mqtt-mirror",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "homebridge-homey-mqtt-mirror",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "mqtt-async": "^1.0.44",
     "yow": "^1.0.110"
   },
-
   "author": "",
   "license": "ISC"
 }
